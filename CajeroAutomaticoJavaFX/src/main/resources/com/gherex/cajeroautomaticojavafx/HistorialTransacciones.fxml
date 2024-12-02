@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.gherex.cajeroautomaticojavafx.CajeroController" spacing="10" alignment="CENTER">
+    <Label text="HISTORIAL DE TRANSACCIONES" />
+    <HBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" alignment="CENTER">
+        <Label fx:id="historialTransacciones" />
+    </HBox>
+    <Button text="Volver al menú principal" onAction="#onVolverAlMenu" />
+</VBox>
